@@ -1,0 +1,38 @@
+#wrapper{
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#form-wrapper{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px bisque;
+  margin: 5px;
+  }
+
+
+ .error{
+    font-size: x-small;
+    color: red;
+  }
+input {
+  padding: .375rem .75rem;
+  font-size: 1 rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color;
+}
